@@ -15,7 +15,7 @@ class JenkinsDemoApplicationTests {
 	public static Logger logger= LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	public  contextLoads() {
 		logger.info("Test case execution......");
 		logger.info("Second Test case execution......................");
         assertEquals(true,true);
