@@ -13,7 +13,7 @@ public class JenkinsDemoApplication {
 	public static Logger logger=LoggerFactory.getLogger(JenkinsDemoApplication.class);
 
 	@PostConstruct
-	public init(){
+	public void init(){
 		logger.info("Start initialization......");
 		logger.info("start After making three project ..... ");
 	}
