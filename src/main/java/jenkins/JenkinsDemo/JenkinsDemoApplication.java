@@ -15,6 +15,7 @@ public class JenkinsDemoApplication {
 	@PostConstruct
 	public void init(){
 		logger.info("Start initialization......");
+		logger.info("start After making three project ..... ");
 	}
 	public static void main(String[] args)
 	{
